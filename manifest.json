@@ -1,7 +1,7 @@
 {
     "name": "Piedra, Papel, Tijera",
     "short_name": "PPT",
-    "start_url": "/main.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#1976d2",
