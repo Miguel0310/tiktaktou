@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijera</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Piedra, Papel o Tijera</h1>
+
+  <div class="choices">
+    <button onclick="playGame('Piedra')">🧱 Piedra</button>
+    <button onclick="playGame('Papel')">📄 Papel</button>
+    <button onclick="playGame('Tijera')">✂️ Tijera</button>
+  </div>
+
+  <div id="result"></div>
+
+  <!-- Botón personalizado para instalar la PWA -->
+  <button id="install-button" style="display: none;">Agregar a pantalla de inicio</button>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
